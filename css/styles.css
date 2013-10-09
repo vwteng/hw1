@@ -8,7 +8,7 @@ body {
 	font-family: 'Share Tech Mono', sans-serif;
 	font-size: 18px;
 	color: #FFF;
-	padding: 20px;
+	padding: 25px;
 }
 
 p {
@@ -16,13 +16,12 @@ p {
 }
 
 img {
-	float: left;
 	margin-right: 10px;
 }
 
-.content {
-	background-color: #9A73D0;
-	width: 75%;
+.title {
+	background-color: #9A73D8;
+	width: 70%;
 	margin: 0 auto;
 	padding: 10px;
 }
@@ -35,7 +34,7 @@ img {
 
 .big-name {
 	font-family: 'Amatic SC', sans-serif;
-	font-size: 1000%;
+	font-size: 900%;
 	text-align: center;
 }
 
@@ -65,18 +64,58 @@ a:hover {
 	color: #9A73D0;
 }
 
-main {
+.content {
 	background-color: #634F80;
-	width: 75%;
+	width: 70%;
 	margin: 0 auto;
 	padding: 10px;
 	margin-top: 5px;
 }
 
+h2 {
+	font-size: 200%;
+}
+
 .small-logo {
+	float: left;
 	width: 20%;
 }
 
 .small-image {
 	width: 50%;
+}
+
+.home-image {
+	width: 50%;
+	float: left;
+}
+
+.type, h3 {
+	background-color: #461D7F;
+	font-size: 150%;
+}
+
+.choices {
+	margin-left: 30px;
+}
+
+.subchoices {
+	margin-left: 60px;
+}
+
+.desc {
+	font-size: 85%;
+	margin-left: 90px;
+	color: #B98DF2;
+}
+
+em {
+	color: #FFF7AB;
+	text-transform: uppercase;
+	font-size: 125%;
+}
+
+
+.about {
+	text-indent: 60px;
 }
