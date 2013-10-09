@@ -1,1 +1,83 @@
-@import url (reset.css);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+@import url(reset.css);
+
+body {
+	background-color: #FFF7AB;
+	font-family: 'Share Tech Mono', sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	padding: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+img {
+	float: left;
+	margin-right: 10px;
+}
+
+.content {
+	background-color: #9A73D0;
+	width: 75%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.name {
+	font-family: 'Amatic SC', sans-serif;
+	font-size: 300%;
+	padding: 20px;
+}
+
+.big-name {
+	font-family: 'Amatic SC', sans-serif;
+	font-size: 1000%;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav ul {
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	margin-right: 10px;
+	color: #FFF;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #FFF7AB;
+	color: #9A73D0;
+}
+
+main {
+	background-color: #634F80;
+	width: 75%;
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.small-logo {
+	width: 20%;
+}
+
+.small-image {
+	width: 50%;
+}
